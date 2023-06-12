@@ -1,0 +1,56 @@
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.quadrado {
+    background-color: red;
+    display: inline-block;
+    border: 1px solid white;
+    width: 200px;
+    height: 200px;
+}
+
+.quadrado_canto {
+    background-color: red;
+    display: inline-block;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+.quadrado_meioazul {
+    background-color: blue;
+    display: inline-block;
+    border: 1px solid white;
+    width: 200px;
+    height: 200px;
+}
+
+.quadrado_meioverde {
+    background-color: green;
+    display: inline-block;
+    border: 1px solid white;
+    width: 200px;
+    height: 200px;
+}
+
+.quadrado_meioamarelo {
+    background-color: yellow;
+    display: inline-block;
+    border: 1px solid white;
+    width: 200px;
+    height: 200px;
+}
+
+.linha {
+    margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        max-width: 1400px;
+    
+}
